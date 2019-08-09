@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+	<style type="text/css">
+		html, body{height: 95%;
+		           width: 99.7%;
+		           background-image: linear-gradient(to right, #667eea, #764ba2);}
+		#reg_shell{
+			       position: absolute;
+			       top: 13%;
+			       left: 30%;
+			       height: 68%;
+			       width: 38%;
+			       background-color: white;
+		}
+		#reg_shell_header{
+			height: 15%;
+			width: 100%;
+			border-bottom: 1px solid #e5e5e5;
+		}
+		h1 {
+			font-family: sans-serif;
+			text-align: center;
+			color: black;
+		}
+		form{
+			height: 80%;
+			width: 100%;
+			
+		}
+		#form_a {
+			height: 10%;
+			width: 24%;
+			margin-left: 10%;
+			border-style: solid;
+			border-left-width: 48px;
+			margin-top: 7%;
+			padding-left: 4%;
+
+		}
+		#form_b{
+			height: 10%;
+			width: 24%;
+			margin-left: 3%;
+			border-style: solid;
+			border-left-width: 48px;
+			margin-top: 3%;
+			padding-left: 4%;
+		}
+		#form_c {
+			height: 10%;
+			width: 65%;
+			margin-top: 3%;
+			border-style: solid;
+			border-left-width: 50px;
+			margin-left: 10%;
+			padding-left: 4%;
+		}
+		#form_d {
+			height: 10%;
+			width: 65%;
+			margin-top: 3%;
+			border-style: solid;
+			border-left-width: 50px;
+			margin-left: 10%;
+			padding-left: 4%;
+		}
+		#form_e {
+			height: 10%;
+			width: 65%;
+			margin-top: 3%;
+			border-style: solid;
+			border-left-width: 50px;
+			margin-left: 10%;
+			padding-left: 4%;
+		}
+		#btn_submit{
+			width: 100%;
+			height: 18%;
+			font-family: sans-serif;
+			font-weight: bold;
+			background-color: #0000ff;
+			border: none;
+			color: white;
+			opacity: 0.7;
+			margin-top: 9.3%;	}
+		
+	</style>
+</head>
+<body>
+	<div id="reg_shell">
+		<div id="reg_shell_header"><h1>Sign Up</h1></div>
+		<form method="POST" action="registercredential.php">
+           <input id="form_a" type="text" name="uname1" value="" placeholder="First">
+           <input id="form_b" type="text" name="uname2" value="" placeholder="Last">
+           <input id="form_c" type="email" name="email" value="" placeholder="Email">
+           <input id="form_d" type="tel" name="phoneno" value="" placeholder="Phone Number">
+           <input id="form_e" type="password" name="pass" value="" placeholder="Password">
+           <input id="btn_submit" type="submit" name="reg_submit" value="Sign Up"></form>
+	</div>
+</body>
+</html>
